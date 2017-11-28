@@ -22,4 +22,4 @@ if [ ${invocation_error} -eq 1 ]; then echo 'Something went wrong, check for pre
 ./Bluemix_CLI/bin/bluemix login --apikey $BXIAM
 ./Bluemix_CLI/bin/bluemix target -o $CF_ORGANIZATION -s $CF_SPACE
 
-./Bluemix_CLI/bin/bluemix cf push $APP_NAME
+./Bluemix_CLI/bin/bluemix cf push
