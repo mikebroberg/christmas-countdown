@@ -11,7 +11,7 @@ deploy:
   provider: script
   script: ./deploy.sh
   on:
-    repo: lornajane/christmas-countdown
+    repo: mikebroberg/christmas-countdown
     branch: master
   skip_cleanup: true
 
